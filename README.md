@@ -1,13 +1,13 @@
 # Brain_tumor_segmentation
 
-Brain cancer’s severity necessitates precise brain tumor segmentation via 3D MRI, crucial for diagnosis, monitoring, and effective treatment planning. Manual identification,
-burdened by high costs, labor, and error risks, highlights
-the need for automated methods. In this study, we introduce
-the Global Context-aware Squeeze and Excite Residual UNet
-(GCSER-UNet), integrating the innovative Global Context-aware
-Squeeze and Excite (GCSE) mechanism. GCSE facilitates a
-fusion of spatial and channel-wise attention, enhancing the
-model’s capacity to capture intricate spatial dependencies and
+Brain cancer’s severity necessitates precise brain tu-
+mor segmentation, which is crucial for effective brain tumor
+diagnosis. Manual identification, burdened by high costs, labor,
+and error risks, highlights the need for automated methods.
+In this study, we introduce the Global Context-aware Squeeze
+and Excite Residual UNet (GCSER-UNet), which facilitates a
+fusion of spatial and channel-wise attention and thus enhances
+the model’s capacity to capture intricate spatial dependencies and
 contextual information. GCSER-UNet efficiently extracts tumor
 segments from multimodal MRI slices, delivering exceptional
 performance. Evaluations on benchmark databases exhibit its
@@ -15,11 +15,12 @@ superiority, achieving a notable 94% dice score on the TCGA
 LGG dataset, surpassing the state-of-the-art dice score of 91.8%.
 In the BraTS 2020 dataset, the proposed GCSER-UNet ensemble
 approach yielded dice scores of 95%, 92%, and 90% for the tumor
-regions—Whole Tumor (W), Tumor Core (T), and Enhancing Tumor (E), respectively. By comparison, the current state-of-the-art
-dice scores were 94%, 93%, and 88%. These compelling outcomes
-highlight the efficacy of GCSER-UNet in precise brain tumor
-segmentation, promising enhanced efficiency and precision, thus
-advancing brain cancer management and treatment planning.
+regions—Whole Tumor (W), Tumor Core (T), and Enhancing
+Tumor (E), respectively. The current state-of-the-art dice scores
+were 94%, 93%, and 88%. These compelling outcomes highlight
+the efficacy of GCSER-UNet in precise brain tumor segmentation
+and thus can aid neurologists in effective brain cancer manage-
+ment and treatment planning.
 
 **Architecture:**
 
