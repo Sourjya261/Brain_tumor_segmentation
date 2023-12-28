@@ -43,4 +43,7 @@ GCSER-UNet
 ![BraTS_ablation](https://user-images.githubusercontent.com/89221563/229312512-ddc3a5e5-76b6-4ec9-819d-1a1967be1fc0.png)
 
 
-
+**Testing:**
+Run the notebooks:
+brats-2020-seg-slices-et.ipynb,brats-2020-seg-slices-tc.ipynb,brats-2020-seg-slices-wt.ipynb on kaggle/colab with T4 GPU support.
+Dataset API key: "kaggle datasets download -d sourjyamukherjee/brats-2020-slices"
